@@ -1,0 +1,178 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+.isologo{
+	z-index: 1000;
+	position: absolute;
+	padding-left: 2rem;
+}
+.logo-horizontal{
+	width: 50%;
+	height: auto;
+}
+.slider-caption.slider-caption-center{
+	max-width:100%;
+	text-align: left;
+}
+.pt-7{
+	padding-top: 6em;
+}
+
+.paddingtop{
+	padding-top: 2em;
+}
+.paddingbottom{
+	padding-bottom: 2em;
+}
+
+.comolohacemos{
+	background-color: #fcf5ed;
+}
+
+.icon{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.i-plain{
+	margin: 0 auto !important;
+}
+a, .color{
+	color: #f26f03 !important;;
+}
+h1{
+	color: white !important;
+}
+h3{
+	margin:0;
+}
+
+.flotarderecha{
+	float: none;
+	margin: 0 auto;
+}
+
+.parallax{
+	background-image: url('../imagenes/talk.svg');
+	background-color: rgba(242,111,3,0.1);
+}
+.parallax:before {
+	content:'';
+	position: absolute;
+		top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255,255,255,0.6);
+}	
+.dark h3{
+	color: #444444;
+}
+.dark label{
+	color: #555555;
+}
+.switches{
+	text-align: center;
+	padding-top: 25px;
+}
+.switches p{
+	text-align: center;
+	color: #555;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.form-group{
+	margin-bottom: 0;
+}
+.min-vh-100{
+	min-height: 50vh !important;
+}
+label{
+	margin-bottom: 0;
+}
+input.switch-flat-mini.switch-toggle-flat + label{
+	margin: 0 auto;
+}
+input.switch-toggle-flat:checked + label,
+input.switch-toggle-flat:checked + label::after{
+	background-color: #f26f03;
+}
+.slider-caption p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.button{
+	background-color: transparent;
+	border: #f26f03 1px solid;
+	color: #f26f03;
+	text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+}
+.pt-5{
+	padding-top: 3em !important;
+}
+.ultimoboton{
+	display: flex;
+	justify-content: center;
+	text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+}
+.icon-angle-up:hover{
+	background-color: yellow;
+}
+.button-reveal{
+	width: 100%;
+}
+.button-3d.button-black:hover, .button-reveal.button-black:hover, .button-border.button-black:hover, .button-border.button-black.button-fill::before{
+	background-color: #444 !important;
+	color: #fcf5ed !important;
+	border-color:#f26f03;
+}
+.ultimaseccion{
+	padding-top: 0;
+}
+.anteultimaseccion{
+	padding-bottom: 0;
+}
+.displayinline{
+	display: inline;
+}
+@media (min-width: 576px) {
+	.pt-7{
+		padding-top: 2em;
+	}
+	.flotarderecha{
+		float: right;
+	}
+	.pt-5{
+	padding-top: 0 !important;
+	}
+	.paddingtop{
+		padding-top: 0;
+	}
+}
+@media (min-width: 768px) {
+	.paddingtop{
+		padding-top: 2em;
+	}
+	.min-vh-100{
+		min-height: 50vh !important;
+	}
+}
+@media (min-width: 992px) {
+	.parallax:before {
+		content:'';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(242,111,3,0.0);
+	}
+	.min-vh-100{
+		min-height: 100vh !important;
+	}
+
+}
